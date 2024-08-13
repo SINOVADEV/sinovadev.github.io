@@ -4533,7 +4533,7 @@ const defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "https://sinova.co/scripts/pdfjs/build/pdf.worker.mjs",
+    value: "../build/pdf.worker.mjs",
     kind: OptionKind.WORKER
   }
 };
@@ -4543,7 +4543,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "https://sinova.co/scripts/pdfjs/build/pdf.sandbox.mjs",
+    value: "../build/pdf.sandbox.mjs",
     kind: OptionKind.VIEWER
   };
   defaultOptions.viewerCssTheme = {
